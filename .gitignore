@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Database files
+*.db
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Uploads directory
+uploads/
+vector_db/
+
+# Streamlit config if it contains secrets
+# (We will keep .streamlit/config.toml, but ignore secrets.toml if it exists)
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+
+# MacOS
+.DS_Store
