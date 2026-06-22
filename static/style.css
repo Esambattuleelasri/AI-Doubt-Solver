@@ -64,6 +64,7 @@ html, body, [data-testid="stAppViewContainer"] {
 [data-testid="stSidebar"] {
   background: rgba(15, 23, 42, 0.95) !important;
   border-right: 1px solid var(--border) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
   backdrop-filter: blur(20px) !important;
 }
 
@@ -129,6 +130,7 @@ html, body, [data-testid="stAppViewContainer"] {
   background: var(--bg-card) !important;
   border: 1px solid var(--border) !important;
   border-radius: var(--radius-lg) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
   margin-bottom: 0.75rem !important;
   animation: slideIn 0.3s ease !important;
@@ -271,6 +273,7 @@ hr {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   padding: 1.5rem;
   animation: fadeIn 0.4s ease;
@@ -287,6 +290,7 @@ hr {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   padding: 1.25rem 1.5rem;
   text-align: center;
