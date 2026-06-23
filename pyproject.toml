@@ -3,7 +3,7 @@ name = "ai-doubt-solver"
 version = "0.1.0"
 description = "AI Doubt Solver Pro API"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.111.0",
     "uvicorn[standard]>=0.29.0",
